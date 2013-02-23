@@ -1,0 +1,47 @@
+/* 宽度定义 */
+.wp { }
+.wp2{ margin:0 auto; width:1160px;}
+.wp3{ margin:0; border:#282828 solid 1px; overflow:hidden; background:#e8e8e8 url({IMGDIR}/wrap_bg.png) repeat-x 0 0;}
+.wp4 { margin: 0;}
+.mbox{ width:1180px; overflow:hidden; background:#555; margin:0 auto;}
+
+.margin01{ margin:10px 10px 0 10px; padding:10px 0; overflow:hidden;}
+.margin02{ margin:10px;}
+
+.bgbox01{ background:#333 url({IMGDIR}/bodybg.gif) repeat-x 0 0;}
+
+/*页头*/
+#toptb { line-height: 24px; background:{HEADERBGCOLOR};}
+
+/* 导航条2 */
+.nav_2{ height:10px; line-height:10px; overflow:hidden; font-size:10px;}
+
+/* 导航菜单 */
+#nv li { float: left; padding-right: 1px; height: 33px; line-height: 33px; background: url({IMGDIR}/nv_a.png) no-repeat 100% 0; font-weight:normal; font-size: 12px; }
+#nv li a:hover { text-decoration:none; background: url({IMGDIR}/nv_a.png) no-repeat 50% -66px; }
+#nv li.hover a:hover, #nv li.hover a { background: url({IMGDIR}/nv_a.png) no-repeat 50% -99px; }
+
+/* 快捷导航 */
+#qmenu { float: right; display: inline; margin: 3px 4px 0; padding: 0 12px 0 0; width: 83px; height: 26px; background: url({IMGDIR}/qmenu.png) no-repeat 0 0; line-height: 26px; text-align: center; color: {TABLETEXT}; font-weight:normal; text-shadow:none; overflow: hidden; }
+
+/* 二级导航广告 */
+.a_mu { border:none; background: {COMMONBG}; }
+
+#mu ul { background:none; line-height: 22px; z-index: 2; font-size: 12px; }
+#mu li { float: left; height: 30px }
+#mu a { float: left; display: inline; margin: 2px 6px; padding: 0 10px; white-space: nowrap; }
+#mu a:hover { margin: 1px 5px; border: 1px solid {SPECIALBORDER}; background: {SPECIALBG}; color: {HIGHLIGHTLINK}; text-decoration: none; }
+
+#scbar { height: 44px; border: solid {COMMONBORDER}; border-width: 1px; background: url({IMGDIR}/search.png) repeat-x 0 0; line-height: 44px; overflow: hidden; }
+
+/* 格子广告 */
+.a_t { margin-bottom: 10px; border:{WRAPBORDERCOLOR} solid 1px; padding:5px 0; background:{WRAPBG} url({IMGDIR}/bm_c_bg.png) repeat-x 0 0;}
+.a_t td { padding: 4px 15px; text-align:left; border:none; }
+
+/* 区块 */
+.fl .bm_c, #online .bm_c, .lk .bm_c { background: url({IMGDIR}/bm_c_bg.png) repeat-x 0 0; padding-top: 0; padding-bottom: 0; }
+
+/* 底部 */
+#nv_forum #ft { padding: 10px 0 50px; border-top: none; line-height: 1.8; color: {FOOTERTEXT}; }
+#ft a{color: {FOOTERTEXT};}
+#ft .pipe { margin: 0 5px; color:{FOOTERTEXT}; }
